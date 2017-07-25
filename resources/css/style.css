@@ -68,7 +68,6 @@ body {
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
-
 }
 
 #column h2 {
@@ -82,48 +81,49 @@ body {
 
 #column .story2 {
   display: flex;
-  width: 350px;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-basis: auto, 150px;
-}
-
-#column .earthimg {
-  display: inline-flex;
   width: 300px;
-
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-}
-
-#column .story3 {
-  display: flex;
-  width: 350px;
+  height: auto;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   flex-basis: auto, 150px;
 }
 
+#column .earthimg {
+  display: inline-flex;
+  width: 300px;
+  height: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+#column .story3 {
+  display: flex;
+  width: 300px;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: auto, 150px;
+
+}
+
 #column .camimg {
   display: inline-flex;
-  width: 300px
-  padding: 30px 60px;
-
+  width: 300px;
+  Height: 300px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
 }
 
 #column .spacer {
-  max-width: 600px;
-  margin: auto;
+  max-width: 630px;
+  justify-content: space-between;
   display: inline-flex;
-
-
 }
 
 #column .catimg {
   display: flex;
-  padding: 30px 60px;
+  width: 300px;
+  Height: 300px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
 }
 
@@ -133,8 +133,10 @@ body {
   font-weight: bold;
   font-size: 30px;
   color: white;
-
+  align-items: center;
+  text-align: center;
 }
+
 #column h4 {
   display: inline-flex;
   font-family: Georgia;
@@ -142,7 +144,6 @@ body {
   font-size: 16px;
   justify-content: center;
   color: black;
-
 }
 
 #column li {
@@ -173,15 +174,17 @@ body {
 #column .large {
   display: inline-flex;
   width: 630px;
+  height: auto;
   flex-wrap: wrap;
   flex-grow: 3;
   flex-direction: column;
   border: 2px solid blue;
-  }
+}
 
 #column .medium {
   display: inline-flex;
   width: 300px;
+  height: auto;
   flex-grow: 2;
   flex-direction: column;
   border: 2px solid green;
@@ -190,6 +193,7 @@ body {
 #column .small{
   display: inline-flex;
   width: 240px;
+  height: auto;
   flex-grow: 1;
   flex-direction: column;
   border: 2px solid red;
