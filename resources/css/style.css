@@ -284,3 +284,55 @@ body {
   flex-direction: column;
   /*border: 2px solid red;*/
 }
+
+footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  width: 100%;
+  left: 0;
+  height: 300px;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  border: 2px solid red;
+}
+
+footer h1 {
+  display: inline-flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+}
+
+footer nav {
+  display: inline-flex;
+  width: 0 auto;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+    /*border: 2px solid purple;*/
+}
+
+footer .menu {
+  display: inline-block;
+  width: 0 auto;
+  height: auto;
+  margin: 20px;
+  justify-content: center;
+  /*align-items: center;*/
+  text-align: center;
+  border: 2px solid yellow;
+
+}
+
+footer .tagline {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid white;
+}
