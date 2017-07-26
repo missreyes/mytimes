@@ -1,6 +1,9 @@
 body {
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
+
 /* Header */
 .hContainer {
   display: flex;
@@ -60,7 +63,7 @@ body {
   height: auto;
   padding: 87px;
   justify-content: center;
-  border: 2px solid yellow;
+/*border: 2px solid yellow;*/
 }
 
 /*MS Image*/
@@ -191,7 +194,6 @@ body {
   display: inline-flex;
   margin-top: 20px;
   justify-content: center;
-
 }
 
 /*Small Column's Story Header*/
@@ -232,7 +234,6 @@ body {
   border-style: solid;
   border-color: black;
   padding-left: 20px
-
 }
 
 /*Large Column's Cantainer*/
@@ -285,16 +286,17 @@ body {
   /*border: 2px solid red;*/
 }
 
+/*All Footer Info.*/
 footer {
   display: flex;
   background-color: MediumAquamarine;
-  width: 100%;
   left: 0;
+  width: 1415px;
   height: 300px;
-  margin: auto;
   font-family: Verdana;
   font-size: 12px;
-  border: 2px solid red;
+  flex-wrap: wrap;
+  /*border: 2px solid red;*/
 }
 
 footer h1 {
@@ -303,36 +305,37 @@ footer h1 {
   font-size: 16px;
   font-weight: bold;
   color: white;
-  justify-content: center;
+  width: auto;
+  height: 20px;
+  margin: 105px 20px 0px 400px;
+  justify-content: space-around;
   align-items: center;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
 }
 
 footer nav {
   display: inline-flex;
-  width: 0 auto;
-  height: auto;
-  text-align: center;
-  justify-content: center;
-    /*border: 2px solid purple;*/
-}
-
-footer .menu {
-  display: inline-block;
-  width: 0 auto;
-  height: auto;
-  margin: 20px;
-  justify-content: center;
-  /*align-items: center;*/
-  text-align: center;
-  border: 2px solid yellow;
-
-}
-
-footer .tagline {
-  display: inline-block;
-  justify-content: center;
+  width: 300px;
+  height: 20px;
+  margin: 105px 20px 0px 20px;
   align-items: center;
-  text-align: center;
-  border: 2px solid white;
+  justify-content: space-between;
+  /*border: 2px solid purple;*/
+}
+
+footer .menu nav span {
+  display: inline-block;
+  width: 300px;
+  height: 20px;
+  border: 2px solid yellow;
+}
+
+footer .copyright {
+  display: inline-flex;
+  width: 350px;
+  height: 20px;
+  margin: 0px 450px 105px 450px;
+  justify-content: space-around;
+  align-items: center;
+  /*border: 2px solid green;*/
 }
